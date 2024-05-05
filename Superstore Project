@@ -1,0 +1,20 @@
+#This code was written for a project called Superstore. 
+#For this project, I used SQL to query the Superstore database to get information about items sold at the store and their prices. 
+
+SELECT*
+FROM superstore
+ORDER by price  ASC;
+
+#Show a statistic about the item prices.
+SUM(price)
+2135.29
+
+#Use query to show a statistic of the price of items in the category of "Kitchen Supplies".
+SELECT *
+FROM superstore
+WHERE category="kitchen supplies"
+ORDER BY price;
+
+*Use query to come up with your own question about the data.
+SELECT SUM(price)
+FROM superstore;
